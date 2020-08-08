@@ -6,6 +6,7 @@ import Menu from '../menu/Menu';
 import './About.css';
 
 function About(){
+  document.title = "About :: Dumilde Matos";
   return (
     <div className="container-box flex flex-rows">
       <div className="row flex center height-70p">

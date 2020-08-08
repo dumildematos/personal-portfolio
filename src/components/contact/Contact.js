@@ -5,6 +5,7 @@ import logo from '../../logo.svg';
 import Menu from '../menu/Menu';
 
 function Contact(){
+  document.title = "Contact :: Dumilde Matos";
   return (
     <div className="container-box flex flex-rows">
       <div className="row flex center height-70p">
