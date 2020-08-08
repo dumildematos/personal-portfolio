@@ -1,6 +1,7 @@
 :root{
   --dark-color: #424141;
-  --light-color: #fff;
+  --light-color: #F0F0F0;
+  --wite-color: #fff;
 }
 @font-face {
   font-family: 'Century Gothic';
@@ -38,6 +39,7 @@ code {
 .height-70p{
   padding: 10px;
   height: 70px;
+  background-color: var(--light-color);
 }
 .logo-box-nav{
   width: 100px;
@@ -56,6 +58,7 @@ code {
   display: flex;  
 }
 .flex-rows .main-content{
+  background-color: var(--light-color);
   height: 100vh;
   display: flex;
   justify-content: space-around;
