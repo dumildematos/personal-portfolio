@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import Bounce from 'react-reveal/Bounce';
 import Menu from '../menu/Menu';
-import logo from '../logo.svg';
+import logo from '../../logo.svg';
 
 function Home() {
   const timer = (() => {

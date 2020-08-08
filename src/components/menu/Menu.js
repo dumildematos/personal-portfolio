@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import './Menu.css';
 
 function Menu(){
@@ -26,11 +27,11 @@ function Menu(){
       <div className={ isClickState ? 'overlay open': 'overlay'} id="overlay">
       <nav className="overlay-menu" >
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portifolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#"><Link to="/">Home</Link></a></li>
+          <li><a href="#"><Link to="/portfolio">Portifolio </Link></a></li>
+          <li><a href="#"><Link to="/about">About</Link></a></li>
+          <li><a href="#"><Link to="/contact">Contact</Link></a></li>
+          <li><a href="#"><Link to="/blog">Blog</Link></a></li>
         </ul>
       </nav>
     </div>

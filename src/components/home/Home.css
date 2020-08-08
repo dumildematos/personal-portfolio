@@ -1,12 +1,4 @@
-.container-box{
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-.flex{
-  display: flex;
-  justify-content: space-between;
-}
+
 .light-left{
   background-color: var(--light-color);
   flex-grow: 0;
