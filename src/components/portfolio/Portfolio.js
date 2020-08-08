@@ -1,10 +1,8 @@
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
 import './Portfolio.css';
 import logo from '../../logo.svg';
 import Menu from '../menu/Menu';
 import $ from 'jquery';
-import ReactDOM from 'react-dom';
 
 function Portfolio(){
 
@@ -19,7 +17,7 @@ function Portfolio(){
           <img src={logo} alt="logo" />
         </div>
       </div>
-      <div className="row main-content">
+      <div className="main-content">
         <div className="card thumb">
           <span>UI/UX</span>
         </div>        

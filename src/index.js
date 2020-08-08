@@ -6,7 +6,7 @@ import Home from './components/home/Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode basename="https://dumildematos.github.io">
     <App />
   </React.StrictMode>,
   document.getElementById('root')

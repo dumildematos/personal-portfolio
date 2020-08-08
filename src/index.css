@@ -2,6 +2,10 @@
   --dark-color: #424141;
   --light-color: #fff;
 }
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('./assets/fonts/GOTHIC.TTF')
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -49,7 +53,7 @@ code {
 
 }
 .flex-rows .flex{
-  display: flex;
+  display: flex;  
 }
 .flex-rows .main-content{
   height: 100vh;

@@ -1,0 +1,203 @@
+.about{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about .left-box{
+  flex-grow: 2;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.about .right-box{
+  height: 150vh;
+  flex-grow: 5;
+  background: url(./dumildematos.jpeg) no-repeat center center;
+  background-size: cover center;
+}
+.about .left-box .container-content{
+  width: 700px;
+  max-width: 700px;
+}
+.about .left-box .container-content.content{
+  margin-bottom: 15%;
+
+}
+.about .left-box .container-content .content-text header{
+  background: rgb(255, 255, 255);
+  height: 50px;
+  text-align: left;
+}
+.about .left-box .container-content .content-text header h1{
+  font-size: 2em;
+  font-family: 'Century Gothic';
+  font-weight: bolder;
+  display: inline;
+  line-height: normal;
+}.about .left-box .container-content .content-text header h2{
+  font-family: 'Century Gothic';
+  font-size: 2em;
+  display: inline;
+  line-height: normal;
+  font-weight: 70!important;
+  margin: 0 10px;
+}
+.stack header{
+  margin-top: 40px;
+}
+.about .left-box .container-content .content-text header h4{
+  font-family: 'Century Gothic';
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.article-skill{
+  display: flex;
+  justify-content: space-between;
+}
+.article-skill .left{
+  height: 100%;
+  flex-grow: 1;
+}
+.article-skill .right{
+  height: 100%;
+  flex-grow: 1;
+  margin-left: 40px;
+}
+.skill{
+  height: 15px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.skill label{
+  text-transform: uppercase;
+}
+.skill-progress{
+  width: 300px;
+  max-width: 230px;
+  align-self: flex-end;
+  height: 100%;
+  border: 1px solid var(--dark-color);
+  flex-grow: 1;
+}
+.skill-progress-fill{
+  height: 100%;
+  background-color: var(--dark-color);
+}
+.left .skill:nth-child(1)  .skill-progress .skill-progress-fill{
+  animation: grow1 500ms ease-in-out forwards;
+}.left .skill:nth-child(2) .skill-progress .skill-progress-fill{
+  animation: grow2 500ms ease-in-out forwards;
+}.left .skill:nth-child(3) .skill-progress .skill-progress-fill{
+  animation: grow3 500ms ease-in-out forwards;
+}.left .skill:nth-child(4) .skill-progress .skill-progress-fill{
+  animation: grow4 500ms ease-in-out forwards;
+}.left .skill:nth-child(5) .skill-progress .skill-progress-fill{
+  animation: grow5 500ms ease-in-out forwards;
+}.left .skill:nth-child(6) .skill-progress .skill-progress-fill{
+  animation: grow6 500ms ease-in-out forwards;
+}.left .skill:nth-child(7) .skill-progress .skill-progress-fill{
+  animation: grow7 500ms ease-in-out forwards;
+}.left .skill:nth-child(8) .skill-progress .skill-progress-fill{
+  animation: grow8 500ms ease-in-out forwards;
+}.left .skill:nth-child(9) .skill-progress .skill-progress-fill{
+  animation: grow9 500ms ease-in-out forwards;
+}.left .skill:nth-child(10) .skill-progress .skill-progress-fill{
+  animation: grow10 500ms ease-in-out forwards;
+}
+@keyframes grow1{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}@keyframes grow2{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}@keyframes grow3{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}@keyframes grow4{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 97%;
+  }
+}@keyframes grow5{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 87%;
+  }
+}@keyframes grow6{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 96%;
+  }
+}@keyframes grow7{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}@keyframes grow8{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 67%;
+  }
+}@keyframes grow9{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 87%;
+  }
+}@keyframes grow10{
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.right .skill:nth-child(1)  .skill-progress .skill-progress-fill{
+  animation: grow1 500ms ease-in-out forwards;
+}.right .skill:nth-child(2)  .skill-progress .skill-progress-fill{
+  animation: grow7 500ms ease-in-out forwards;
+}.right .skill:nth-child(3)  .skill-progress .skill-progress-fill{
+  animation: grow10 500ms ease-in-out forwards;
+}.right .skill:nth-child(4)  .skill-progress .skill-progress-fill{
+  animation: grow5 500ms ease-in-out forwards;
+}.right .skill:nth-child(5)  .skill-progress .skill-progress-fill{
+  animation: grow7 500ms ease-in-out forwards;
+}.right .skill:nth-child(6)  .skill-progress .skill-progress-fill{
+  animation: grow9 500ms ease-in-out forwards;
+}.right .skill:nth-child(7)  .skill-progress .skill-progress-fill{
+  animation: grow3 500ms ease-in-out forwards;
+}.right .skill:nth-child(8)  .skill-progress .skill-progress-fill{
+  animation: grow3 500ms ease-in-out forwards;
+}.right .skill:nth-child(9)  .skill-progress .skill-progress-fill{
+  animation: grow9 500ms ease-in-out forwards;
+}.right .skill:nth-child(10)  .skill-progress .skill-progress-fill{
+  animation: grow9 500ms ease-in-out forwards;
+}
