@@ -1,0 +1,46 @@
+.main-content .card{
+  height: 80%;
+  width: 400px;
+  border-radius: 5px;
+  -webkit-box-shadow: -1px -5px 160px -68px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -5px 160px -68px rgba(0,0,0,0.75);
+  box-shadow: -1px -5px 160px -68px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+.main-content .card span{
+  font-size: 1.7em;
+  font-weight: bolder;
+  padding: 20px;
+}
+.card:nth-child(2) span , .card:nth-child(3) span {
+  text-transform: initial;
+}
+.card:nth-child(1){
+  background: url(https://miro.medium.com/max/3200/1*ubV5zubWCYUvDMxzh3wRJg.png) no-repeat center;
+  background-size: cover;
+}.card:nth-child(2){
+  background: url(https://wallpaperaccess.com/full/1947484.jpg) no-repeat center;
+  background-size: cover;
+}.card:nth-child(3){
+  background: url(https://storage.googleapis.com/kdawpmedia/mobile-wireframes.jpg) no-repeat center;
+  background-size: cover;
+}
+.card.is-visible{
+  animation: slideUp 700ms ease-in forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    height: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
