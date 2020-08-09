@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Portfolio.css';
 import logo from '../../logo.svg';
 import Menu from '../menu/Menu';
 import $ from 'jquery';
 
 function Portfolio(){
+
+  useEffect(()=>{
+    dynamicClass();
+  },[])
 
   // console.log(document.getElementsByClassName('thumb'))
   document.title = 'Portfolio :: Dumilde Matos';
@@ -33,26 +37,28 @@ function Portfolio(){
   
 }
 
-if(document.location.href.includes('/portfolio')){
-  console.log('here!')
-  // $(function() {
-  //   document.location.reload();
-  //   $('.card').each(function(i){
-  //     setTimeout(function(){
-  //       $('.card').eq(i).addClass('is-visible');
-  //     }, 1000 * i)
-  //   })
-  // });
-  Portfolio();
-  $(".portfolio").ready(function() {
-    console.log($('.card'))
-    $('.card').each(function(i){
-      setTimeout(function(){
-        $('.card').eq(i).addClass('is-visible');
-      }, 1000 * i)
-    })
-  });
-}
+function dynamicClass (){
+  if(document.location.href.includes('/portfolio')){
+    console.log('here!')
+    // $(function() {
+    //   document.location.reload();
+    //   $('.card').each(function(i){
+    //     setTimeout(function(){
+    //       $('.card').eq(i).addClass('is-visible');
+    //     }, 1000 * i)
+    //   })
+    // });
+  
+    $(".portfolio").ready(function() {
+      console.log($('.card'))
+      $('.card').each(function(i){
+        setTimeout(function(){
+          $('.card').eq(i).addClass('is-visible');
+        }, 1000 * i)
+      })
+    });
+  }
 
+}
 
 export default Portfolio;

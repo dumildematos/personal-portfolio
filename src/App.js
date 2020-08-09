@@ -5,6 +5,7 @@ import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio'
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
+import Blog from './components/blog/Blog';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio}></Route>
         <Route path="/about" component={About}></Route>
         <Route path="/contact" component={Contact}></Route>
-        <Route path="/" component={Home}></Route>
+        <Route path="/blog" component={Blog}></Route>
       </Switch>
     </Router>
   );
