@@ -21,7 +21,7 @@ function Portfolio(){
           <img src={logo} alt="logo" />
         </div>
       </div>
-      <div className="main-content">
+      <div className="main-content portfolio">
         <div className="card thumb">
           <span>UI/UX</span>
         </div>        
@@ -39,16 +39,6 @@ function Portfolio(){
 
 function dynamicClass (){
   if(document.location.href.includes('/portfolio')){
-    console.log('here!')
-    // $(function() {
-    //   document.location.reload();
-    //   $('.card').each(function(i){
-    //     setTimeout(function(){
-    //       $('.card').eq(i).addClass('is-visible');
-    //     }, 1000 * i)
-    //   })
-    // });
-  
     $(".portfolio").ready(function() {
       console.log($('.card'))
       $('.card').each(function(i){

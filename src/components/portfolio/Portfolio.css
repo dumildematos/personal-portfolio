@@ -1,6 +1,9 @@
+.portfolio{
+  /* background-color: red!important; */
+}
 .main-content .card{
-  height: 80%;
-  width: 400px;
+  /* height: 0%; */
+  /* width: 400px; */
   border-radius: 5px;
   -webkit-box-shadow: -1px -5px 160px -68px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px -5px 160px -68px rgba(0,0,0,0.75);
@@ -23,13 +26,13 @@
   text-transform: initial;
 }
 .card:nth-child(1){
-  background: url(https://miro.medium.com/max/3200/1*ubV5zubWCYUvDMxzh3wRJg.png) no-repeat center;
+  background: url(../../assets/img/ui_ux.png) no-repeat center;
   background-size: cover;
 }.card:nth-child(2){
-  background: url(https://wallpaperaccess.com/full/1947484.jpg) no-repeat center;
+  background: url(../../assets/img/web_development.jpg) no-repeat center;
   background-size: cover;
 }.card:nth-child(3){
-  background: url(https://storage.googleapis.com/kdawpmedia/mobile-wireframes.jpg) no-repeat center;
+  background: url(../../assets/img/mobile-wireframes.jpg) no-repeat center;
   background-size: cover;
 }
 .card.is-visible{
@@ -40,8 +43,11 @@
   0% {
     opacity: 0;
     height: 0%;
+    width: 0;
   }
   100% {
     opacity: 1;
+    height: 80%;
+    width: 400px;
   }
 }

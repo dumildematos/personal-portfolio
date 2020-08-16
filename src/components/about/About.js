@@ -25,7 +25,13 @@ function About(){
               </header>              
               <section>
                 <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Enim facilisis gravida neque convallis a cras semper auctor. At augue eget arcu dictum. Elementum sagittis vitae et leo duis ut diam quam nulla. Vitae turpis massa sed elementum tempus egestas. Amet mattis vulputate enim nulla aliquet porttitor. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Vehicula ipsum a arcu cursus. Aliquam ultrices sagittis orci a scelerisque purus semper. Proin libero nunc consequat interdum varius sit amet mattis. Interdum velit laoreet id donec ultrices tincidunt arcu. Quisque id diam vel quam elementum pulvinar etiam non.</p>
+                <p>I'm a Web, Mobile Developer and Web Designer, 
+                I love working with web technologies and creating
+                useful UI and UX for implementation, very self-taught I have
+                almost 10 years experience in programming, I have worked with
+                different technologies and platforms , to give the customer the
+                best results and something more.
+                </p>
                 </article>
               </section>
             </div>
